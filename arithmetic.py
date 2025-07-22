@@ -13,4 +13,4 @@ print('Floor Division:\t\t\t\t\t', a, '//', b, '=', a // b)
 
 print('Remainder:\t\t\t\t\t\t', a, "%", b, '=', a % b)
 
-print('Exponent:\t\t\t\t\t\t', a, ' exp2 = ', a**b, sep ='')
+print('Exponent:\t\t\t\t\t\t', a, ' exp2 = ', a**b, sep ='')#sep is for seperateby sep = ' ' seperate by  ' ' one space
