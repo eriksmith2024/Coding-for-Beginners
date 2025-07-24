@@ -2,7 +2,7 @@ chars = ['A', 'B', 'C']
 fruit = ('Apple','Banana','Cherry')
 info = {'name ': ' Mike', 'ref ': ' Python', 'sys' : 'Win'}
 
-print('Elements: \t', end = '')
+print('\nElements: \t', end = '')
 for i in chars:
     print(i, end = ' ')
 
@@ -14,8 +14,8 @@ print('\nZipped: \t' , end = ' ')
 for item in zip(chars , fruit) :
     print( item ,  end = ' ')
 
-print(' \inPaired:')
+print('\n\nPaired:')
 for key , value in info.items():
-    print(key, '=', value)
+    print(key, '=', value, '\n')
 
 
