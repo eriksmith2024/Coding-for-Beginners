@@ -16,6 +16,6 @@ for item in zip(chars , fruit) :
 
 print(' \inPaired:')
 for key , value in info.items():
-    print(key, '=')
+    print(key, '=', value)
 
 
