@@ -13,3 +13,9 @@ for item in enumerate( chars ):
 print('\nZipped: \t' , end = ' ')
 for item in zip(chars , fruit) :
     print( item ,  end = ' ')
+
+print(' \inPaired:')
+for key , value in info.items():
+    print(key, '=')
+
+
