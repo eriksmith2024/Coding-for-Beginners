@@ -1,11 +1,11 @@
-# title = 'Coding for Beginners in easy steps'
+title = 'Coding for Beginners in easy steps'
 
-# try:
+try:
 
-#     print(titel)
+    print(titel)
 
-# except NameError as msg:
-#     print( msg )
+except NameError as msg:
+    print( msg )
 
 
 day = 32
