@@ -5,4 +5,4 @@ def lick(pet = 'A Dog'):
     print(pet,'Drinks Water')
 
 def nap(pet = "A Dog"):
-    print(pet 'Sleeps in the Sun')
+    print(pet, 'Sleeps in the Sun')
