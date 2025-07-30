@@ -7,12 +7,14 @@ def insertion_sort( array ) :
             index -=1
         array[ index ] = value
 
-        print('tResolving element[', index , '] to', array)
+        print('\tResolving element[', index , '] to', array)
 
 
 array = [ 5, 3, 1, 2, 6, 4 ]
 print( 'insertion Sort...\nArray:', array)
 
+insertion_sort( array )
+print( 'Array :', array )
 
 
 
