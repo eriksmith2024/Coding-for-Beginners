@@ -47,4 +47,3 @@ quick_sort(array)
 
 # Print the sorted array
 print('Array :', array, '\n')
-gbnr
