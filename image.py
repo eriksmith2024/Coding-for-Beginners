@@ -11,3 +11,6 @@ small_img = PhotoImage.subsample( img , x = 2, y = 2)
 
 btn = Button( window, image = small_img )
 
+txt = Text( window, width = 25, height = 7 )
+txt.image_create('1.0', image = small_img )
+txt.insert('1.1','Python Fun')
