@@ -4,4 +4,4 @@ class Duck:
     def coat( self ) :
         print( '\nDuck wears feathers')
 
-        
+    
