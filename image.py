@@ -14,3 +14,8 @@ btn = Button( window, image = small_img )
 txt = Text( window, width = 25, height = 7 )
 txt.image_create('1.0', image = small_img )
 txt.insert('1.1','Python Fun')
+
+can = \
+Canvas( window, width = 100, height = 100, bg = 'pink')
+can.create_image(( 50,50 ), image = small_img )
+can.create_line( 0, 0, 100, 100, width = 25, fill = 'magenta')
