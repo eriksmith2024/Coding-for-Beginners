@@ -19,3 +19,10 @@ can = \
 Canvas( window, width = 100, height = 100, bg = 'pink')
 can.create_image(( 50,50 ), image = small_img )
 can.create_line( 0, 0, 100, 100, width = 25, fill = 'magenta')
+
+label.pack( side = TOP )
+btn.pack( side = LEFT, padx = 10 )
+txt.pack( side = LEFT )
+can.pack( side = LEFT, padx = 10 )
+
+window.mainloop()
