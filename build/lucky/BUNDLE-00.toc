@@ -1,0 +1,4 @@
+([('lucky',
+   '/Users/erikjamessmith/Documents/Coding Books/Coding for '
+   'Beginners/dist/lucky',
+   'EXECUTABLE')],)
